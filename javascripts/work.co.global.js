@@ -17,3 +17,5 @@ var drawProgress = function($p, $y, per){
     $p.text(p);
     $y.text(y);
 }
+
+const parentPath = '/pittura-demo';

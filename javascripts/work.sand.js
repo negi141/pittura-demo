@@ -225,7 +225,7 @@ $(function() {
         // 波            
         waveTexture = [];
         for(var i=9 ; i<=73 ; i++){//70
-            var a = new THREE.ImageUtils.loadTexture('/images/tex_wave/_'+i+'.jpg');
+            var a = new THREE.ImageUtils.loadTexture(parentPath + '/images/tex_wave/_'+i+'.jpg');
             waveTexture.push(a);
         }
         waveGeometry = new THREE.PlaneGeometry( w, h, segment, segment );
@@ -366,7 +366,7 @@ $(function() {
     });
     var setTexture = function(btnElem){
         texture  = new THREE.ImageUtils.loadTexture(
-            '/pittura-demo/images/tex/sand/sand' + btnElem.attr("val") + '.jpg');
+            parentPath + '/images/tex/sand/sand' + btnElem.attr("val") + '.jpg');
         // 選択枠
         $(".change-tex-btn").removeClass('change-tex-btn-selected');
         btnElem.addClass('change-tex-btn-selected');
