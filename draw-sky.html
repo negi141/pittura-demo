@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:og="http://ogp.me/ns#">
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Pittura</title>
+  
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="description" content="<%= description %>" />
+  <meta name="keywords" content="<%= keywords %>" />
+
+  <link rel="apple-touch-icon" href="/images/site_icon/apple-touch-icon.png" />
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="/stylesheets/root.css" />
+  <link rel="stylesheet" href="/stylesheets/works.css" />
+  
+  
+  </head>
+
+  <body>
+
+  <div class="wrap">
+    <div class="container">
+
+      <div class="title">
+        <a href="/">Pittura</a>
+      </div>
+
+<!--yeild-->
+<div class="cent">
+
+    <div id="canvas-content"></div>
+
+    <div class="canvas-btn-holder">
+        <button id="draw-clear-btn" class="btn-lg"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="canvas-btn-label">消す</span></button>
+    </div>
+
+    <div class="canvas-bg-btn-holder">
+        <img src="/images/tex/sky/sky1_t.jpg" id="change-tex-btn1" class="change-tex-btn" val="1" >
+        <img src="/images/tex/sky/sky2_t.jpg" id="change-tex-btn2" class="change-tex-btn" val="2" >
+        <img src="/images/tex/sky/sky3_t.jpg" id="change-tex-btn3" class="change-tex-btn" val="3" >
+    </div>
+    
+  <script src="/javascripts/Detector.js"></script>
+  <script src="/javascripts/three.min.js"></script>
+  <script src="/javascripts/toast.js"></script>
+  <script src="/javascripts/work.co.global.js"></script>
+  <script src="/javascripts/work.co.load.js"></script>
+
+  <script src="/javascripts/work.sky.js"></script>
+</div>
+
+
+<!---->
+
+    </div>
+  </div>
+  </body>
+</html>

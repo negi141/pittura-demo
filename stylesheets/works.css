@@ -1,0 +1,109 @@
+// Place all the styles related to the work controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.title {
+    text-align: center;
+    font-size: 19px;
+    padding: 4px;
+}
+.btn-selected, .btn-selected:hover, .btn-selected:active, .btn-selected:visited{
+    border-color: rgb(120,140,250);
+    color: #0077ff;
+}
+#comment{
+    width: 230px;
+}
+#tweet_btn_holder{
+    text-align: center;
+    padding: 5px;
+}
+#txtProgressY,#txtProgressP{
+    letter-spacing: -6px;
+}
+.tw_icon {
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+}
+.view-text {
+    width: 330px;
+    text-align: left;
+    display: inline-block;
+    padding: 5px 0;
+}
+.cent{
+    text-align: center;
+}
+.change-tex-btn {
+    width: 37px;
+    height: 37px;
+    border-radius: 19px;
+    margin: 2px 4px;
+    cursor: pointer;
+}
+.mode-sel-btn{
+    width:200px;
+    margin:6px;
+    border: solid 0px;
+}
+pre {
+    background-color: #fff;
+    border: 0px solid #fff;
+}
+#data_post label{
+    font-weight: normal;
+}
+#comment {
+    border: solid 1px #ccc;
+    border-radius: 11px;
+    padding: 3px 7px;
+}
+.change-tex-btn-selected{
+    box-shadow: 0px 0px 7px #07f;
+}
+.canvas-btn-holder {
+    padding-bottom: 2px;
+}
+.canvas-bg-btn-holder {
+    padding-bottom: 10px;
+}
+.canvas-btn-holder button{
+    padding: 4px 16px;
+    border-radius: 16px;
+    border: solid 0px;
+}
+.sel_img{
+    display: inline-block;
+    border-radius: 20px;
+    width: 125px;
+}
+.canvas-btn-label {
+    font-size: 9px;
+    display: block;
+    margin-top: -2px;
+}
+#message-content{
+    font-size: 11px;
+}
+.toast {
+	position: fixed; 
+	top: 320px; 
+	display: inline-block;
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	border-radius: 15px;
+	padding: 8px 15px;
+	border: solid 0px rgba(255,255,255,0.7);
+	z-index: 10000;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+	font-size:13px;
+}
+.h-theme-btn{
+    padding: 4px;
+    display: inline-block;
+}
+#labelComment {
+    display: block;
+    margin-left: -200px;
+    font-size: 12px;
+}
