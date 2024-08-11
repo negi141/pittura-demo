@@ -287,7 +287,7 @@ $(function() {
     });
     var setTexture = function(btnElem){
         texture  = new THREE.ImageUtils.loadTexture(
-            '/images/tex/sky/sky' + btnElem.attr("val") + '.jpg');
+            'images/tex/sky/sky' + btnElem.attr("val") + '.jpg');
         // 選択枠
         $(".change-tex-btn").removeClass('change-tex-btn-selected');
         btnElem.addClass('change-tex-btn-selected');
@@ -295,7 +295,7 @@ $(function() {
     }
     var setTextureCloud = function(btnElem){
         textureCloud  = new THREE.ImageUtils.loadTexture(
-            '/images/tex/sky/cloud' + btnElem.attr("val") + '.jpg');
+            'images/tex/sky/cloud' + btnElem.attr("val") + '.jpg');
         return textureCloud;
     }
     $(".change-tex-btn").click(function(){

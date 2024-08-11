@@ -243,7 +243,7 @@ $(function() {
     });
     var setTexture = function(btnElem){
         texture  = new THREE.ImageUtils.loadTexture(
-            '/images/tex/window/window' + btnElem.attr("val") + '.jpg');
+            'images/tex/window/window' + btnElem.attr("val") + '.jpg');
         // 選択枠
         $(".change-tex-btn").removeClass('change-tex-btn-selected');
         btnElem.addClass('change-tex-btn-selected');
@@ -251,7 +251,7 @@ $(function() {
     }
     var setTextureBlur = function(btnElem){
         textureBlur  = new THREE.ImageUtils.loadTexture(
-            '/images/tex/window/window' + btnElem.attr("val") + '-blur.jpg');
+            'images/tex/window/window' + btnElem.attr("val") + '-blur.jpg');
         return textureBlur;
     }
     $(".change-tex-btn").click(function(){
