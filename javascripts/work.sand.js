@@ -225,7 +225,7 @@ $(function() {
         // 波            
         waveTexture = [];
         for(var i=9 ; i<=73 ; i++){//70
-            var a = new THREE.ImageUtils.loadTexture(parentPath + '/images/tex_wave/_'+i+'.jpg');
+            var a = new THREE.ImageUtils.loadTexture(parentPath + '/images/tex_wave/'+i+'.jpg');
             waveTexture.push(a);
         }
         waveGeometry = new THREE.PlaneGeometry( w, h, segment, segment );
