@@ -366,7 +366,7 @@ $(function() {
     });
     var setTexture = function(btnElem){
         texture  = new THREE.ImageUtils.loadTexture(
-            'images/tex/sand/sand' + btnElem.attr("val") + '.jpg');
+            '/pittura-demo/images/tex/sand/sand' + btnElem.attr("val") + '.jpg');
         // 選択枠
         $(".change-tex-btn").removeClass('change-tex-btn-selected');
         btnElem.addClass('change-tex-btn-selected');
